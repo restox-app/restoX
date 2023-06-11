@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "843309913960",
+    "project_id": "restox-dev-alpha-1",
+    "storage_bucket": "restox-dev-alpha-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843309913960:android:b5612aaafa7e872f5aa8dd",
+        "android_client_info": {
+          "package_name": "app.restox.dev.flutter.restox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843309913960-v8vissns7qlak8u4a1ralus293975icf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKB6_JT_iRMvd8ZAaavHhVJaXCrYpYpVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843309913960-v8vissns7qlak8u4a1ralus293975icf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
