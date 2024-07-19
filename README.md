@@ -1,16 +1,18 @@
-# restox
+# RestoX
 
-A new Flutter project.
+### App built with Flutter
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p float="left">
+  <img src="sc/1.png" width="200" />
+  <img src="sc/2.png" width="200" />
+  <img src="sc/3.png" width="200" />
+  <img src="sc/4.png" width="200" />
+  <img src="sc/5.png" width="200" />
+  <img src="sc/6.png" width="200" />
+  <img src="sc/7.png" width="200" />
+  <img src="sc/8.png" width="200" />
+  <img src="sc/9.png" width="200" />
+  <img src="sc/10.png" width="200" />
+  <img src="sc/11.png" width="200" />
+  <img src="sc/12.png" width="200" />
+</p>
