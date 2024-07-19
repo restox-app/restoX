@@ -45,17 +45,17 @@ class AsyncRouterNotifier extends ChangeNotifier {
         GoRoute(
           name: 'restaurant',
           path: '/restaurant/:restaurant_id',
-          builder: (context, state) => RestaurantPage(restaurantId: state.params['restaurant_id']!)
+          builder: (context, state) => RestaurantPage(restaurantId: state.pathParameters['restaurant_id']!)
         ),
         GoRoute(
           name: 'cart',
           path: '/restaurant/:restaurant_id/cart',
-          builder: (context, state) => CartPage(restaurantId: state.params['restaurant_id']!)
+          builder: (context, state) => CartPage(restaurantId: state.pathParameters['restaurant_id']!)
         ),
         GoRoute(
           name: 'order_conf',
           path: '/restaurant/:restaurant_id/order_conf',
-          builder: (context, state) => OrderConfirmation(restaurantId: state.params['restaurant_id']!)
+          builder: (context, state) => OrderConfirmation(restaurantId: state.pathParameters['restaurant_id']!)
         ),
         GoRoute(
           name: 'orders',

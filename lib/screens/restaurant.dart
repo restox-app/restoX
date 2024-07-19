@@ -132,7 +132,7 @@ class _RestaurantPageState extends ConsumerState<RestaurantPage> {
                   height: 75,
                   width: double.infinity,
                   decoration: BoxDecoration(
-                      color: Theme.of(context).primaryColorLight,
+                      color: Theme.of(context).colorScheme.primaryContainer,
                       borderRadius: BorderRadius.circular(20)
                   ),
                   child: Column(

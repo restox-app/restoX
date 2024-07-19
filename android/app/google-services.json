@@ -29,6 +29,13 @@
             {
               "client_id": "843309913960-v8vissns7qlak8u4a1ralus293975icf.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "843309913960-kq3v3ods9bdkq0kflnhlitjh7adn1nsg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.restox.dev.flutter.restox"
+              }
             }
           ]
         }

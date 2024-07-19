@@ -58,35 +58,38 @@ class Orders extends ConsumerWidget {
                       Text(state.orderRes.data[index].id),
                       SizedBox(height: 20,),
                       Column(
-                        children: state.orderRes.data[index].cartItems.map((e) => Row(
-                          children: [
-                            Container(
-                              width: 75,
-                              height: 75,
-                              clipBehavior: Clip.hardEdge,
-                              decoration: BoxDecoration(
-                                  color: Theme
-                                      .of(context)
-                                      .colorScheme
-                                      .surface,
-                                  borderRadius: BorderRadius.circular(20)
+                        children: state.orderRes.data[index].cartItems.map((e) => Padding(
+                          padding: EdgeInsets.symmetric(vertical: 10),
+                          child: Row(
+                            children: [
+                              Container(
+                                width: 75,
+                                height: 75,
+                                clipBehavior: Clip.hardEdge,
+                                decoration: BoxDecoration(
+                                    color: Theme
+                                        .of(context)
+                                        .colorScheme
+                                        .surface,
+                                    borderRadius: BorderRadius.circular(20)
+                                ),
+                                child: FittedBox(
+                                  fit: BoxFit.cover,
+                                  child: Image.network('https://restox-menu-photos.s3.ap-south-1.amazonaws.com/${e.menuItem.image}/medium.jpg'),
+                                ),
                               ),
-                              child: FittedBox(
-                                fit: BoxFit.cover,
-                                child: Image.network('https://restox-menu-photos.s3.ap-south-1.amazonaws.com/${e.menuItem.image}/medium.jpg'),
+                              const SizedBox(width: 10,),
+                              Expanded(
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(e.menuItem.name, style: Theme.of(context).textTheme.labelLarge),
+                                    Text(NumberFormat.currency(symbol: '₹').format(e.price), style: Theme.of(context).textTheme.labelSmall),
+                                  ],
+                                ),
                               ),
-                            ),
-                            const SizedBox(width: 10,),
-                            Expanded(
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Text(e.menuItem.name, style: Theme.of(context).textTheme.labelLarge),
-                                  Text(NumberFormat.currency(symbol: '₹').format(e.price), style: Theme.of(context).textTheme.labelSmall),
-                                ],
-                              ),
-                            ),
-                          ],
+                            ],
+                          )
                         )).toList(),
                       ),
                       SizedBox(height: 20,),

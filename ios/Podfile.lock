@@ -1,123 +1,114 @@
 PODS:
-  - Firebase/Auth (9.6.0):
+  - Firebase/Auth (10.28.0):
     - Firebase/CoreOnly
-    - FirebaseAuth (~> 9.6.0)
-  - Firebase/CoreOnly (9.6.0):
-    - FirebaseCore (= 9.6.0)
-  - firebase_auth (4.3.0):
-    - Firebase/Auth (= 9.6.0)
+    - FirebaseAuth (~> 10.28.0)
+  - Firebase/CoreOnly (10.28.0):
+    - FirebaseCore (= 10.28.0)
+  - firebase_auth (5.1.2):
+    - Firebase/Auth (= 10.28.0)
     - firebase_core
     - Flutter
-  - firebase_core (2.8.0):
-    - Firebase/CoreOnly (= 9.6.0)
+  - firebase_core (3.2.0):
+    - Firebase/CoreOnly (= 10.28.0)
     - Flutter
-  - FirebaseAuth (9.6.0):
-    - FirebaseCore (~> 9.0)
-    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
-    - GoogleUtilities/Environment (~> 7.7)
-    - GTMSessionFetcher/Core (< 3.0, >= 1.7)
-  - FirebaseCore (9.6.0):
-    - FirebaseCoreDiagnostics (~> 9.0)
-    - FirebaseCoreInternal (~> 9.0)
-    - GoogleUtilities/Environment (~> 7.7)
-    - GoogleUtilities/Logger (~> 7.7)
-  - FirebaseCoreDiagnostics (9.6.0):
-    - GoogleDataTransport (< 10.0.0, >= 9.1.4)
-    - GoogleUtilities/Environment (~> 7.7)
-    - GoogleUtilities/Logger (~> 7.7)
-    - nanopb (< 2.30910.0, >= 2.30908.0)
-  - FirebaseCoreInternal (9.6.0):
-    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+  - FirebaseAppCheckInterop (10.29.0)
+  - FirebaseAuth (10.28.0):
+    - FirebaseAppCheckInterop (~> 10.17)
+    - FirebaseCore (~> 10.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GTMSessionFetcher/Core (< 4.0, >= 2.1)
+    - RecaptchaInterop (~> 100.0)
+  - FirebaseCore (10.28.0):
+    - FirebaseCoreInternal (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.12)
+    - GoogleUtilities/Logger (~> 7.12)
+  - FirebaseCoreInternal (10.29.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
   - Flutter (1.0.0)
-  - flutter_libphonenumber_ios (1.0.0):
+  - flutter_libphonenumber_ios (1.1.4):
     - Flutter
-    - PhoneNumberKit/PhoneNumberKitCore (= 3.3.4)
+    - PhoneNumberKit/PhoneNumberKitCore (= 3.7.9)
   - flutter_native_splash (0.0.1):
     - Flutter
   - fluttertoast (0.0.2):
     - Flutter
     - Toast
-  - GoogleDataTransport (9.2.1):
+  - GoogleDataTransport (9.4.1):
     - GoogleUtilities/Environment (~> 7.7)
-    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - nanopb (< 2.30911.0, >= 2.30908.0)
     - PromisesObjC (< 3.0, >= 1.2)
-  - GoogleMLKit/BarcodeScanning (3.2.0):
+  - GoogleMLKit/BarcodeScanning (6.0.0):
     - GoogleMLKit/MLKitCore
-    - MLKitBarcodeScanning (~> 2.2.0)
-  - GoogleMLKit/MLKitCore (3.2.0):
-    - MLKitCommon (~> 8.0.0)
-  - GoogleToolboxForMac/DebugUtils (2.3.2):
-    - GoogleToolboxForMac/Defines (= 2.3.2)
-  - GoogleToolboxForMac/Defines (2.3.2)
-  - GoogleToolboxForMac/Logger (2.3.2):
-    - GoogleToolboxForMac/Defines (= 2.3.2)
-  - "GoogleToolboxForMac/NSData+zlib (2.3.2)":
-    - GoogleToolboxForMac/Defines (= 2.3.2)
-  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.3.2)":
-    - GoogleToolboxForMac/DebugUtils (= 2.3.2)
-    - GoogleToolboxForMac/Defines (= 2.3.2)
-    - "GoogleToolboxForMac/NSString+URLArguments (= 2.3.2)"
-  - "GoogleToolboxForMac/NSString+URLArguments (2.3.2)"
-  - GoogleUtilities/AppDelegateSwizzler (7.11.0):
+    - MLKitBarcodeScanning (~> 5.0.0)
+  - GoogleMLKit/MLKitCore (6.0.0):
+    - MLKitCommon (~> 11.0.0)
+  - GoogleToolboxForMac/Defines (4.2.1)
+  - GoogleToolboxForMac/Logger (4.2.1):
+    - GoogleToolboxForMac/Defines (= 4.2.1)
+  - "GoogleToolboxForMac/NSData+zlib (4.2.1)":
+    - GoogleToolboxForMac/Defines (= 4.2.1)
+  - GoogleUtilities/AppDelegateSwizzler (7.13.3):
     - GoogleUtilities/Environment
     - GoogleUtilities/Logger
     - GoogleUtilities/Network
-  - GoogleUtilities/Environment (7.11.0):
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Environment (7.13.3):
+    - GoogleUtilities/Privacy
     - PromisesObjC (< 3.0, >= 1.2)
-  - GoogleUtilities/Logger (7.11.0):
+  - GoogleUtilities/Logger (7.13.3):
     - GoogleUtilities/Environment
-  - GoogleUtilities/Network (7.11.0):
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Network (7.13.3):
     - GoogleUtilities/Logger
     - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Privacy
     - GoogleUtilities/Reachability
-  - "GoogleUtilities/NSData+zlib (7.11.0)"
-  - GoogleUtilities/Reachability (7.11.0):
+  - "GoogleUtilities/NSData+zlib (7.13.3)":
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Privacy (7.13.3)
+  - GoogleUtilities/Reachability (7.13.3):
     - GoogleUtilities/Logger
-  - GoogleUtilities/UserDefaults (7.11.0):
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/UserDefaults (7.13.3):
     - GoogleUtilities/Logger
+    - GoogleUtilities/Privacy
   - GoogleUtilitiesComponents (1.1.0):
     - GoogleUtilities/Logger
-  - GTMSessionFetcher/Core (1.7.2)
-  - MLImage (1.0.0-beta3)
-  - MLKitBarcodeScanning (2.2.0):
-    - MLKitCommon (~> 8.0)
-    - MLKitVision (~> 4.2)
-  - MLKitCommon (8.0.0):
-    - GoogleDataTransport (~> 9.0)
-    - GoogleToolboxForMac/Logger (~> 2.1)
-    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
-    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
-    - GoogleUtilities/UserDefaults (~> 7.0)
+  - GTMSessionFetcher/Core (3.5.0)
+  - MLImage (1.0.0-beta5)
+  - MLKitBarcodeScanning (5.0.0):
+    - MLKitCommon (~> 11.0)
+    - MLKitVision (~> 7.0)
+  - MLKitCommon (11.0.0):
+    - GoogleDataTransport (< 10.0, >= 9.4.1)
+    - GoogleToolboxForMac/Logger (< 5.0, >= 4.2.1)
+    - "GoogleToolboxForMac/NSData+zlib (< 5.0, >= 4.2.1)"
+    - GoogleUtilities/UserDefaults (< 8.0, >= 7.13.0)
     - GoogleUtilitiesComponents (~> 1.0)
-    - GTMSessionFetcher/Core (~> 1.1)
-    - Protobuf (~> 3.12)
-  - MLKitVision (4.2.0):
-    - GoogleToolboxForMac/Logger (~> 2.1)
-    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
-    - GTMSessionFetcher/Core (~> 1.1)
-    - MLImage (= 1.0.0-beta3)
-    - MLKitCommon (~> 8.0)
-    - Protobuf (~> 3.12)
-  - mobile_scanner (3.0.0):
+    - GTMSessionFetcher/Core (< 4.0, >= 3.3.2)
+  - MLKitVision (7.0.0):
+    - GoogleToolboxForMac/Logger (< 5.0, >= 4.2.1)
+    - "GoogleToolboxForMac/NSData+zlib (< 5.0, >= 4.2.1)"
+    - GTMSessionFetcher/Core (< 4.0, >= 3.3.2)
+    - MLImage (= 1.0.0-beta5)
+    - MLKitCommon (~> 11.0)
+  - mobile_scanner (5.1.1):
     - Flutter
-    - GoogleMLKit/BarcodeScanning (~> 3.2.0)
-  - nanopb (2.30909.0):
-    - nanopb/decode (= 2.30909.0)
-    - nanopb/encode (= 2.30909.0)
-  - nanopb/decode (2.30909.0)
-  - nanopb/encode (2.30909.0)
-  - package_info_plus (0.4.5):
-    - Flutter
-  - PhoneNumberKit/PhoneNumberKitCore (3.3.4)
-  - PromisesObjC (2.2.0)
-  - Protobuf (3.22.1)
-  - razorpay-pod (1.3.1)
+    - GoogleMLKit/BarcodeScanning (~> 6.0.0)
+  - nanopb (2.30910.0):
+    - nanopb/decode (= 2.30910.0)
+    - nanopb/encode (= 2.30910.0)
+  - nanopb/decode (2.30910.0)
+  - nanopb/encode (2.30910.0)
+  - PhoneNumberKit/PhoneNumberKitCore (3.7.9)
+  - PromisesObjC (2.4.0)
+  - razorpay-pod (1.3.10)
   - razorpay_flutter (1.1.10):
     - Flutter
     - razorpay-pod
-  - smart_auth (0.0.1):
-    - Flutter
-  - Toast (4.0.0)
+  - RecaptchaInterop (100.0.0)
+  - Toast (4.1.1)
 
 DEPENDENCIES:
   - firebase_auth (from `.symlinks/plugins/firebase_auth/ios`)
@@ -127,16 +118,14 @@ DEPENDENCIES:
   - flutter_native_splash (from `.symlinks/plugins/flutter_native_splash/ios`)
   - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
   - mobile_scanner (from `.symlinks/plugins/mobile_scanner/ios`)
-  - package_info_plus (from `.symlinks/plugins/package_info_plus/ios`)
   - razorpay_flutter (from `.symlinks/plugins/razorpay_flutter/ios`)
-  - smart_auth (from `.symlinks/plugins/smart_auth/ios`)
 
 SPEC REPOS:
   trunk:
     - Firebase
+    - FirebaseAppCheckInterop
     - FirebaseAuth
     - FirebaseCore
-    - FirebaseCoreDiagnostics
     - FirebaseCoreInternal
     - GoogleDataTransport
     - GoogleMLKit
@@ -151,8 +140,8 @@ SPEC REPOS:
     - nanopb
     - PhoneNumberKit
     - PromisesObjC
-    - Protobuf
     - razorpay-pod
+    - RecaptchaInterop
     - Toast
 
 EXTERNAL SOURCES:
@@ -170,46 +159,40 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/fluttertoast/ios"
   mobile_scanner:
     :path: ".symlinks/plugins/mobile_scanner/ios"
-  package_info_plus:
-    :path: ".symlinks/plugins/package_info_plus/ios"
   razorpay_flutter:
     :path: ".symlinks/plugins/razorpay_flutter/ios"
-  smart_auth:
-    :path: ".symlinks/plugins/smart_auth/ios"
 
 SPEC CHECKSUMS:
-  Firebase: 5ae8b7cf8efce559a653aef0ad95bab3f427c351
-  firebase_auth: 04d3a688052f60ef1bcc5cdffb5991ab2622e722
-  firebase_core: 05d20ff9377fa4463d9e3fa412f1e9fa7bfaf4d8
-  FirebaseAuth: e4a5d3c36e778e41141b91cc861103a441d80bcc
-  FirebaseCore: 2082fffcd855f95f883c0a1641133eb9bbe76d40
-  FirebaseCoreDiagnostics: 99a495094b10a57eeb3ae8efa1665700ad0bdaa6
-  FirebaseCoreInternal: bca76517fe1ed381e989f5e7d8abb0da8d85bed3
-  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
-  flutter_libphonenumber_ios: 9b82b770449b1228fd7dc2e47984ebd8ef9ca381
-  flutter_native_splash: 52501b97d1c0a5f898d687f1646226c1f93c56ef
-  fluttertoast: eb263d302cc92e04176c053d2385237e9f43fad0
-  GoogleDataTransport: ea169759df570f4e37bdee1623ec32a7e64e67c4
-  GoogleMLKit: 0017a6a8372e1a182139b9def4d89be5d87ca5a7
-  GoogleToolboxForMac: 8bef7c7c5cf7291c687cf5354f39f9db6399ad34
-  GoogleUtilities: c2bdc4cf2ce786c4d2e6b3bcfd599a25ca78f06f
+  Firebase: 5121c624121af81cbc81df3bda414b3c28c4f3c3
+  firebase_auth: e778ee89483b86fe4200d1f8e9a1c52aa5fb64a8
+  firebase_core: a9d0180d5285527884d07a41eb4a9ec9ed12cdb6
+  FirebaseAppCheckInterop: 6a1757cfd4067d8e00fccd14fcc1b8fd78cfac07
+  FirebaseAuth: 3d872fbbfc4223edeb72769e488f325fa8b0a4a9
+  FirebaseCore: 857dc1c6dd1255675047404d8466f7dfaac5d779
+  FirebaseCoreInternal: df84dd300b561c27d5571684f389bf60b0a5c934
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_libphonenumber_ios: eb22e6f6e97c9604805f00bff961ca397071dfdc
+  flutter_native_splash: edf599c81f74d093a4daf8e17bd7a018854bc778
+  fluttertoast: 48c57db1b71b0ce9e6bba9f31c940ff4b001293c
+  GoogleDataTransport: 6c09b596d841063d76d4288cc2d2f42cc36e1e2a
+  GoogleMLKit: 97ac7af399057e99182ee8edfa8249e3226a4065
+  GoogleToolboxForMac: d1a2cbf009c453f4d6ded37c105e2f67a32206d8
+  GoogleUtilities: ea963c370a38a8069cc5f7ba4ca849a60b6d7d15
   GoogleUtilitiesComponents: 679b2c881db3b615a2777504623df6122dd20afe
-  GTMSessionFetcher: 5595ec75acf5be50814f81e9189490412bad82ba
-  MLImage: 489dfec109f21da8621b28d476401aaf7a0d4ff4
-  MLKitBarcodeScanning: d92fe1911001ec36870162c5a0eb206f612b7169
-  MLKitCommon: f6da6c5659618c070b50a80db01248ebe2964175
-  MLKitVision: 96c96571190b7f63eddf4a12068ce8a8689e0d2c
-  mobile_scanner: 004f7ad2fe4e2b5a3e6ed0bc4b83ca9c5b5dd975
-  nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
-  package_info_plus: 6c92f08e1f853dc01228d6f553146438dafcd14e
-  PhoneNumberKit: 441e8b26ec88d598e3591de9061eff18f5dd12e8
-  PromisesObjC: 09985d6d70fbe7878040aa746d78236e6946d2ef
-  Protobuf: d7f7c8329edf5eb8af65547a8ba3e9c1cee927d5
-  razorpay-pod: 1ca021af16022084c1b368be9f030a4931f1e5f8
+  GTMSessionFetcher: 5aea5ba6bd522a239e236100971f10cb71b96ab6
+  MLImage: 1824212150da33ef225fbd3dc49f184cf611046c
+  MLKitBarcodeScanning: 10ca0845a6d15f2f6e911f682a1998b68b973e8b
+  MLKitCommon: afec63980417d29ffbb4790529a1b0a2291699e1
+  MLKitVision: e858c5f125ecc288e4a31127928301eaba9ae0c1
+  mobile_scanner: 8564358885a9253c43f822435b70f9345c87224f
+  nanopb: 438bc412db1928dac798aa6fd75726007be04262
+  PhoneNumberKit: 9c8d546d65c3784721d575a29e712ae8b992fe79
+  PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
+  razorpay-pod: d1a41e72bf4c918b6d1f4a63767a20260abdc939
   razorpay_flutter: 84b3bfd206ae9c9c2a9ba585524a1b3d8102b6c1
-  smart_auth: 4bedbc118723912d0e45a07e8ab34039c19e04f2
-  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
+  Toast: 1f5ea13423a1e6674c4abdac5be53587ae481c4e
 
-PODFILE CHECKSUM: 7eb7134485d736cea40d6f3c70997b4032d3d563
+PODFILE CHECKSUM: 1959d098c91d8a792531a723c4a9d7e9f6a01e38
 
-COCOAPODS: 1.12.0
+COCOAPODS: 1.15.2
